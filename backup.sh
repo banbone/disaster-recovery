@@ -38,3 +38,4 @@ git commit -m "auto-commit - dotfiles backup for $DATE"
 git push --set-upstream origin "backup/$DATE"
 git checkout master
 git merge "backup/$DATE"
+git push
