@@ -1,0 +1,2 @@
+NAME          CONTAINER-RUNTIME                       STATUS                     EKS-VERSION
+metadata.name status.nodeInfo.containerRuntimeVersion status.conditions[-1].type status.nodeInfo.kubeletVersion

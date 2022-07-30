@@ -1,0 +1,25 @@
+aws-cli-v2:
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+aws --version
+
+spin-cli (v1.17.3):
+curl -L https://storage.googleapis.com/spinnaker-artifacts/spin/1.17.3/darwin/amd64/spin -o spin
+chmod +x spin
+mv spin /usr/local/bin/spin
+
+drone-cli:
+brew tap drone/drone
+brew install drone
+
+kubectl:
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl"
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
+sudo chown root: /usr/local/bin/kubectl
+kubectl version --client
+
+fzf, kubectx & kubens:
+brew install fzf kubectx kubens
+$(brew --prefix)/opt/fzf/install
+
