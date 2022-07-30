@@ -23,6 +23,9 @@ done
 cp /tmp/pip-list.txt ./pip-list.txt
 rm /tmp/pip-list.txt
 
+cp ~/customClusterColumns.txt ./customClusterColumns.txt
+cp ~/fixVirtualBox.sh ./fixVirtualBox.sh
+
 ls ~/.vscode/extensions > ./vscode-extensions-list.txt
 
 echo "# CHANGES UPDATED ON $DATE" >> ./CHANGELOG.md
