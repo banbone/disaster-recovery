@@ -2,7 +2,7 @@
 ll=$(last -2 -t console | tail -1 | cut -b 40- | cut -b -16)
 hr=$(last -2 -t console | tail -1 | cut -b 40- | cut -b 28-29)
 min=$(last -2 -t console | tail -1 | cut -b 40- | cut -b 31-32)
-echo "Your last session was on $ll for $((hr?hr:0)) hours and $min minutes. Welcome back!"
+echo "Your last session - $ll for $((hr?hr:0)) hours and $min minutes. Welcome back!"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
