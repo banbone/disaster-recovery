@@ -25,7 +25,7 @@ rm /tmp/pip-list.txt
 
 cp ~/customClusterColumns.txt ./customClusterColumns.txt
 cp ~/fixVirtualBox.sh ./fixVirtualBox.sh
-
+npm ls -g --json | jq -r '.dependencies' > ./npm-list.json
 ls ~/.vscode/extensions > ./vscode-extensions-list.txt
 
 echo "# CHANGES UPDATED ON $DATE" >> ./CHANGELOG.md
