@@ -18,11 +18,11 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # load aliases and functions
-~/.alias/aws.sh
-~/.alias/docker.sh
-~/.alias/general.sh
-~/.alias/git.sh
-~/.alias/k8s.sh
-~/.alias/spin.sh
+. ~/.alias/aws.sh
+. ~/.alias/docker.sh
+. ~/.alias/general.sh
+. ~/.alias/git.sh
+. ~/.alias/k8s.sh
+. ~/.alias/spin.sh
 
 # drone credential exports omitted for security - please re-add
