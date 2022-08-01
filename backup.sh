@@ -25,6 +25,18 @@ rm /tmp/pip-list.txt
 
 cp ~/customClusterColumns.txt ./customClusterColumns.txt
 cp ~/fixVirtualBox.sh ./fixVirtualBox.sh
+
+touch /tmp/npm-list.txt
+npmlist=$(npm ls -g --json | jq -r '.dependencies')
+for i in $(echo $npmlist | jq 'keys' | jq -r '.[]') ;
+do
+  package="$i" ;
+  version=$(echo "$npmlist" | jq -r --arg a "$package" '.[$a].version') ;
+  echo "$package@$version" >> /tmp/npm-list.txt ;
+done
+cp /tmp/npm-list.txt ./npm-list.txt
+rm /tmp/npm-list.txt
+
 npm ls -g --json | jq -r '.dependencies' > ./npm-list.json
 ls ~/.vscode/extensions > ./vscode-extensions-list.txt
 
