@@ -6,7 +6,6 @@ alias ssodvla='aws-azure-login --profile azure'
 alias ssokill='unset AWS_PROFILE && unset AWS_ACCESS_KEY_ID && unset AWS_SECRET_ACCESS_KEY && unset AWS_SESSION_TOKEN'
 alias ecrlog='aws ecr get-login-password --region eu-west-2 | docker login --username AWS --password-stdin "$(getRegistryId)"'
 alias awsid='aws sts get-caller-identity'
-alias instance-refresh='aws autoscaling start-instance-refresh --auto-scaling-group-name'
 alias cancel-image='aws imagebuilder cancel-image-creation --image-build-version-arn'
 function sp() { 
   export AWS_PROFILE=${1} 
@@ -34,4 +33,8 @@ for section in sorted(config.sections()):
 # show results
 console.print(table)
 HEARDOC
+}
+function bitbucketRefresh() {
+REF_ID=$(aws autoscaling start-instance-refresh --auto-scaling-group-name bitbucket-asg | jq -r '.InstanceRefreshId')
+watch aws autoscaling describe-instance-refreshes --auto-scaling-group-name bitbucket-asg --instance-refresh-ids "$REF_ID"
 }

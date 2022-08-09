@@ -24,5 +24,7 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 . ~/.alias/git.sh
 . ~/.alias/k8s.sh
 . ~/.alias/spin.sh
+export APPLE_SSH_ADD_BEHAVIOR=openssh
+export APPLE_SSH_ADD_BEHAVIOR=macos
 
 # drone credential exports omitted for security - please re-add

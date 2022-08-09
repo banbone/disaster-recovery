@@ -5,3 +5,10 @@ M  vscode-extensions-list.txt
 # CHANGES UPDATED ON 2022-08-01
 M  CHANGELOG.md
 M  dotfiles/.zshrc
+# CHANGES UPDATED ON 2022-08-09
+M  CHANGELOG.md
+M  dotfiles/.alias/aws.sh
+M  dotfiles/.zshrc
+A  npm-list.json
+M  npm-list.txt
+M  vscode-extensions-list.txt
