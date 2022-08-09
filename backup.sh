@@ -39,6 +39,8 @@ rm /tmp/npm-list.txt
 
 ls ~/.vscode/extensions > ./vscode-extensions-list.txt
 
+base64 "$HOME"/Library/'Application Support'/Google/Chrome/Default/Bookmarks > chrome-bookmarks.encr
+
 echo "# CHANGES UPDATED ON $DATE" >> ./CHANGELOG.md
 
 git add .
