@@ -37,7 +37,6 @@ done
 cp /tmp/npm-list.txt ./npm-list.txt
 rm /tmp/npm-list.txt
 
-npm ls -g --json | jq -r '.dependencies' > ./npm-list.json
 ls ~/.vscode/extensions > ./vscode-extensions-list.txt
 
 echo "# CHANGES UPDATED ON $DATE" >> ./CHANGELOG.md
