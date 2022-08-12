@@ -1,4 +1,5 @@
-#! /bin/sh
+#! /bin/zsh
+source /Users/danieljones/.zshrc
 cd ~/disaster-recovery || exit 1
 
 DATE=$(date "+%Y-%m-%d")
