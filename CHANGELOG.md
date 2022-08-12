@@ -12,3 +12,10 @@ M  dotfiles/.zshrc
 A  npm-list.json
 M  npm-list.txt
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2022-08-12
+M  CHANGELOG.md
+M  brew-list.txt
+A  chrome-bookmarks.encr
+M  npm-list.txt
+M  pip-list.txt
+M  vscode-extensions-list.txt

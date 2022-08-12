@@ -13,7 +13,7 @@ donjayamanne.githistory-0.6.19
 eamodio.gitlens-12.1.2
 editorconfig.editorconfig-0.16.4
 esbenp.prettier-vscode-9.5.0
-github.vscode-pull-request-github-0.48.0
+github.vscode-pull-request-github-0.48.1
 hashicorp.terraform-2.23.0-darwin-x64
 hediet.vscode-drawio-1.6.4
 kddejong.vscode-cfn-lint-0.22.0
@@ -22,6 +22,7 @@ monokai.theme-monokai-pro-vscode-1.1.20
 ms-azuretools.vscode-docker-1.22.1
 ms-kubernetes-tools.vscode-kubernetes-tools-1.3.10
 ms-vscode-remote.remote-containers-0.241.3
+ms-vscode-remote.remote-containers-0.245.0
 ms-vscode.vscode-typescript-tslint-plugin-1.3.4
 ms-vsliveshare.vsliveshare-1.0.5683
 oderwat.indent-rainbow-8.3.1
