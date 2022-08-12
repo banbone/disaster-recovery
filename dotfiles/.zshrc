@@ -16,6 +16,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export APPLE_SSH_ADD_BEHAVIOR=macos
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # load aliases and functions
 . ~/.alias/aws.sh
@@ -24,6 +25,5 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 . ~/.alias/git.sh
 . ~/.alias/k8s.sh
 . ~/.alias/spin.sh
-export APPLE_SSH_ADD_BEHAVIOR=macos
 
 # drone credential exports omitted for security - please re-add
