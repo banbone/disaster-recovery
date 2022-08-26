@@ -28,3 +28,11 @@ M  vscode-extensions-list.txt
 # CHANGES UPDATED ON 2022-08-12
 M  CHANGELOG.md
 M  dotfiles/.zshrc
+# CHANGES UPDATED ON 
+M  CHANGELOG.md
+M  brew-list.txt
+M  chrome-bookmarks.encr
+M  dotfiles/.alias/general.sh
+M  npm-list.txt
+M  pip-list.txt
+M  vscode-extensions-list.txt
