@@ -36,3 +36,7 @@ M  dotfiles/.alias/general.sh
 M  npm-list.txt
 M  pip-list.txt
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 
+M  CHANGELOG.md
+M  chrome-bookmarks.encr
+M  vscode-extensions-list.txt
