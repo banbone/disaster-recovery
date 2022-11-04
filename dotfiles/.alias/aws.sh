@@ -2,7 +2,7 @@
 function getRegistryId() { 
   echo "$(aws ecr describe-registry | jq -r '.registryId').dkr.ecr.eu-west-2.amazonaws.com" 
 }
-alias ssodvla='aws-azure-login --profile azure'
+alias ssodvla='aws-azure-login --profile azure --no-prompt'
 alias ssokill='unset AWS_PROFILE && unset AWS_ACCESS_KEY_ID && unset AWS_SECRET_ACCESS_KEY && unset AWS_SESSION_TOKEN'
 alias ecrlog='aws ecr get-login-password --region eu-west-2 | docker login --username AWS --password-stdin "$(getRegistryId)"'
 alias awsid='aws sts get-caller-identity'
@@ -36,5 +36,5 @@ HEARDOC
 }
 function bitbucketRefresh() {
 REF_ID=$(aws autoscaling start-instance-refresh --auto-scaling-group-name bitbucket-asg | jq -r '.InstanceRefreshId')
-watch aws autoscaling describe-instance-refreshes --auto-scaling-group-name bitbucket-asg --instance-refresh-ids "$REF_ID"
+watch "aws autoscaling describe-instance-refreshes --auto-scaling-group-name bitbucket-asg --instance-refresh-ids $REF_ID | jq -r '.InstanceRefreshes[0] | .Status,.StatusReason'" 
 }
