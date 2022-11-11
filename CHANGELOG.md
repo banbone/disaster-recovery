@@ -67,3 +67,7 @@ M  CHANGELOG.md
 M  chrome-bookmarks.encr
 M  dotfiles/.alias/aws.sh
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 
+M  CHANGELOG.md
+M  chrome-bookmarks.encr
+M  vscode-extensions-list.txt
