@@ -1,5 +1,8 @@
 #! /bin/zsh
+HOME="/Users/danieljones"
+PATH=$(/usr/local/bin/aws secretsmanager get-secret-value --secret-id mac-term-path | /usr/local/bin/jq -r '.SecretString')
 source /Users/danieljones/.zshrc
+
 cd ~/disaster-recovery || exit 1
 
 DATE=$(date "+%Y-%m-%d")
