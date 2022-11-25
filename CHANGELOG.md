@@ -84,3 +84,7 @@ M  pip-list.txt
 M  vscode-extensions-list.txt
 # CHANGES UPDATED ON 2022-11-21
 M  CHANGELOG.md
+# CHANGES UPDATED ON 2022-11-25
+M  CHANGELOG.md
+M  chrome-bookmarks.encr
+M  vscode-extensions-list.txt
