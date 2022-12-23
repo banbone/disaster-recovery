@@ -16,6 +16,7 @@ gdbm
 gettext
 git
 gmp
+gnu-sed
 gnupg
 gnutls
 go
@@ -97,6 +98,7 @@ unbound
 watch
 wget
 xz
+yarn
 yq
 zlib
 zstd
