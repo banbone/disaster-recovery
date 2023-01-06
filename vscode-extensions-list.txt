@@ -15,6 +15,7 @@ editorconfig.editorconfig-0.16.4
 esbenp.prettier-vscode-9.10.3
 extensions.json
 github.vscode-pull-request-github-0.56.0
+golang.go-0.37.0
 hashicorp.terraform-2.25.2-darwin-x64
 hediet.vscode-drawio-1.6.4
 kddejong.vscode-cfn-lint-0.24.2
@@ -24,7 +25,7 @@ ms-azuretools.vscode-docker-1.23.3
 ms-kubernetes-tools.vscode-kubernetes-tools-1.3.11
 ms-vscode-remote.remote-containers-0.266.1
 ms-vscode.vscode-typescript-tslint-plugin-1.3.4
-ms-vsliveshare.vsliveshare-1.0.5788
+ms-vsliveshare.vsliveshare-1.0.5797
 oderwat.indent-rainbow-8.3.1
 orta.vscode-jest-5.1.0
 redhat.fabric8-analytics-0.3.6
@@ -32,13 +33,13 @@ redhat.vscode-commons-0.0.6
 redhat.vscode-yaml-1.10.1
 ritwickdey.liveserver-5.7.9
 threadheap.serverless-ide-vscode-0.5.34
-timonwong.shellcheck-0.29.2-darwin-x64
-tomoki1207.pdf-1.2.1
+timonwong.shellcheck-0.29.3-darwin-x64
 tomoki1207.pdf-1.2.2
 visualstudioexptteam.intellicode-api-usage-examples-0.2.6
 visualstudioexptteam.vscodeintellicode-1.2.29
 waderyan.gitblame-10.1.0
 wallabyjs.quokka-vscode-1.0.519
+wallabyjs.quokka-vscode-1.0.520
 wayou.vscode-todo-highlight-1.0.5
 wix.vscode-import-cost-3.3.0
 ziyasal.vscode-open-in-github-1.3.6

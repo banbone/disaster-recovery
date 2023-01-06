@@ -101,3 +101,7 @@ M  CHANGELOG.md
 M  brew-list.txt
 M  chrome-bookmarks.encr
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2023-01-06
+M  CHANGELOG.md
+M  chrome-bookmarks.encr
+M  vscode-extensions-list.txt
