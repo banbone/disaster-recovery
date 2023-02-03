@@ -118,3 +118,7 @@ M  vscode-extensions-list.txt
 M  CHANGELOG.md
 M  chrome-bookmarks.encr
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2023-02-03
+M  CHANGELOG.md
+M  npm-list.txt
+M  vscode-extensions-list.txt
