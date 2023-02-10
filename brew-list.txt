@@ -103,4 +103,5 @@ yq
 zlib
 zstd
 cakebrew
+microsoft-remote-desktop
 vagrant

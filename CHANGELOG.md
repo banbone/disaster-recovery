@@ -122,3 +122,7 @@ M  vscode-extensions-list.txt
 M  CHANGELOG.md
 M  npm-list.txt
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2023-02-10
+M  CHANGELOG.md
+M  brew-list.txt
+M  vscode-extensions-list.txt
