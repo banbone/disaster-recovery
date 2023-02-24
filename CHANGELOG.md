@@ -131,3 +131,11 @@ M  CHANGELOG.md
 M  dotfiles/.docker-config.json
 M  pip-list.txt
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2023-02-24
+M  CHANGELOG.md
+M  brew-list.txt
+M  dotfiles/.docker-config.json
+M  dotfiles/.docker-daemon.json
+M  npm-list.txt
+M  pip-list.txt
+M  vscode-extensions-list.txt

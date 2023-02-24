@@ -71,6 +71,7 @@ node
 npth
 oniguruma
 openssl@1.1
+openssl@3
 p11-kit
 pcre
 pcre2
@@ -80,9 +81,10 @@ pkg-config
 postgresql
 postgresql@14
 protobuf
-python@3.10
-python@3.8
-python@3.9
+python-gdbm@3.11
+python-tk@3.11
+python-typing-extensions
+python@3.11
 pyyaml
 rbac-lookup
 readline
