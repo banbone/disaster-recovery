@@ -139,3 +139,6 @@ M  dotfiles/.docker-daemon.json
 M  npm-list.txt
 M  pip-list.txt
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2023-03-10
+M  CHANGELOG.md
+M  vscode-extensions-list.txt
