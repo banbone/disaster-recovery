@@ -142,3 +142,8 @@ M  vscode-extensions-list.txt
 # CHANGES UPDATED ON 2023-03-10
 M  CHANGELOG.md
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2023-03-24
+M  CHANGELOG.md
+M  dotfiles/.docker-config.json
+M  dotfiles/.docker-daemon.json
+M  vscode-extensions-list.txt
