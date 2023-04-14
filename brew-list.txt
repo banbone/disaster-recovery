@@ -94,6 +94,7 @@ pyyaml
 qemu
 rbac-lookup
 readline
+ruby
 screenresolution
 six
 snappy

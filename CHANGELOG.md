@@ -151,3 +151,8 @@ M  vscode-extensions-list.txt
 M  CHANGELOG.md
 M  brew-list.txt
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2023-04-14
+M  CHANGELOG.md
+M  brew-list.txt
+M  dotfiles/.alias/general.sh
+M  vscode-extensions-list.txt
