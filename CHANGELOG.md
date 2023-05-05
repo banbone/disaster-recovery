@@ -162,3 +162,6 @@ M  vscode-extensions-list.txt
 # CHANGES UPDATED ON 2023-04-28
 M  CHANGELOG.md
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2023-05-05
+M  CHANGELOG.md
+M  vscode-extensions-list.txt
