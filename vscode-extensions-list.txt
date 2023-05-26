@@ -1,7 +1,6 @@
 4ops.terraform-0.2.5
 afractal.node-essentials-1.1.0
 alefragnani.project-manager-12.7.0
-amazonwebservices.aws-toolkit-vscode-1.73.0
 amazonwebservices.aws-toolkit-vscode-1.74.0
 aws-scripting-guy.cform-0.0.24
 be5invis.vscode-icontheme-nomo-dark-1.3.6
@@ -13,7 +12,7 @@ dbaeumer.vscode-eslint-2.4.0
 donjayamanne.githistory-0.6.20
 eamodio.gitlens-13.6.0
 editorconfig.editorconfig-0.16.4
-esbenp.prettier-vscode-9.12.0
+esbenp.prettier-vscode-9.13.0
 extensions.json
 formulahendry.code-runner-0.12.0
 github.vscode-pull-request-github-0.64.0
@@ -28,7 +27,7 @@ ms-kubernetes-tools.vscode-kubernetes-tools-1.3.11
 ms-python.isort-2022.8.0
 ms-python.pylint-2023.4.0
 ms-python.python-2023.8.0
-ms-python.vscode-pylance-2023.5.30
+ms-python.vscode-pylance-2023.5.40
 ms-toolsai.jupyter-2023.4.1011241018-darwin-x64
 ms-toolsai.jupyter-keymap-1.1.0
 ms-toolsai.jupyter-renderers-1.0.15
@@ -40,9 +39,9 @@ ms-vscode.vscode-typescript-tslint-plugin-1.3.4
 ms-vsliveshare.vsliveshare-1.0.5864
 oderwat.indent-rainbow-8.3.1
 orta.vscode-jest-5.2.3
-redhat.fabric8-analytics-0.3.6
+redhat.fabric8-analytics-0.3.10
 redhat.vscode-commons-0.0.6
-redhat.vscode-yaml-1.12.2
+redhat.vscode-yaml-1.13.0
 ritwickdey.liveserver-5.7.9
 threadheap.serverless-ide-vscode-0.6.1
 timonwong.shellcheck-0.32.5-darwin-x64
@@ -50,7 +49,7 @@ tomoki1207.pdf-1.2.2
 visualstudioexptteam.intellicode-api-usage-examples-0.2.7
 visualstudioexptteam.vscodeintellicode-1.2.30
 waderyan.gitblame-10.2.0
-wallabyjs.quokka-vscode-1.0.541
+wallabyjs.quokka-vscode-1.0.542
 wayou.vscode-todo-highlight-1.0.5
 wix.vscode-import-cost-3.3.0
 ziyasal.vscode-open-in-github-1.3.6
