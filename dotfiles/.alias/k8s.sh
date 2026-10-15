@@ -1,5 +1,5 @@
 # k8s aliases
 alias kc='kubectl'
 alias kn='kubens'
-alias ks='kubeselect'
+alias ks='kubectx'
 alias kx='kubectx'

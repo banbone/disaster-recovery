@@ -178,3 +178,17 @@ M  vscode-extensions-list.txt
 # CHANGES UPDATED ON 2023-06-02
 M  CHANGELOG.md
 M  vscode-extensions-list.txt
+# CHANGES UPDATED ON 2026-10-15
+M  CHANGELOG.md
+M  backup.sh
+M  brew-list.txt
+M  dotfiles/.alias/aws.sh
+M  dotfiles/.alias/general.sh
+M  dotfiles/.alias/k8s.sh
+A  dotfiles/.alias/update-aws.sh
+M  dotfiles/.docker-config.json
+M  dotfiles/.docker-daemon.json
+M  dotfiles/.vimrc
+M  dotfiles/.zshrc
+M  npm-list.txt
+M  pip-list.txt

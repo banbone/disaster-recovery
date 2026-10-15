@@ -1,29 +1,12 @@
-# print time statement
-ll=$(last -2 -t console | tail -1 | cut -b 40- | cut -b -16)
-hr=$(last -2 -t console | tail -1 | cut -b 40- | cut -b 28-29)
-min=$(last -2 -t console | tail -1 | cut -b 40- | cut -b 31-32)
-echo "Your last session - $ll for $((hr?hr:0)) hours and $min minutes. Welcome back!"
+# Kiro CLI pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"# brew psql utils
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client@8.4/bin:$PATH"
 
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-export APPLE_SSH_ADD_BEHAVIOR=macos
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-# load aliases and functions
-. ~/.alias/aws.sh
-. ~/.alias/docker.sh
-. ~/.alias/general.sh
-. ~/.alias/git.sh
-. ~/.alias/k8s.sh
-. ~/.alias/spin.sh
+# Kiro CLI post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
 
 # drone credential exports omitted for security - please re-add

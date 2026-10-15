@@ -1,10 +1,4 @@
 #! /bin/zsh
-HOME="/Users/danieljones"
-PATH=$(/usr/local/bin/aws secretsmanager get-secret-value --secret-id mac-term-path | /usr/local/bin/jq -r '.SecretString')
-source /Users/danieljones/.zshrc
-
-cd ~/disaster-recovery || exit 1
-
 DATE=$(date "+%Y-%m-%d")
 
 git checkout -b "backup/$DATE"
@@ -27,9 +21,6 @@ done
 cp /tmp/pip-list.txt ./pip-list.txt
 rm /tmp/pip-list.txt
 
-cp ~/customClusterColumns.txt ./customClusterColumns.txt
-cp ~/fixVirtualBox.sh ./fixVirtualBox.sh
-
 touch /tmp/npm-list.txt
 npmlist=$(npm ls -g --json | jq -r '.dependencies')
 for i in $(echo $npmlist | jq 'keys' | jq -r '.[]') ;
@@ -40,10 +31,6 @@ do
 done
 cp /tmp/npm-list.txt ./npm-list.txt
 rm /tmp/npm-list.txt
-
-ls ~/.vscode/extensions > ./vscode-extensions-list.txt
-
-base64 "$HOME"/Library/'Application Support'/Google/Chrome/Default/Bookmarks > chrome-bookmarks.encr
 
 echo "# CHANGES UPDATED ON $DATE" >> ./CHANGELOG.md
 

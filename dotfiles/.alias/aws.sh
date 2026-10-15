@@ -4,8 +4,10 @@ function getRegistryId() {
 }
 alias ssodvla='aws-azure-login --profile azure --no-prompt'
 alias ssokill='unset AWS_PROFILE && unset AWS_ACCESS_KEY_ID && unset AWS_SECRET_ACCESS_KEY && unset AWS_SESSION_TOKEN'
+alias ssoorgs="aws sso login --profile tooling-prod"
 alias ecrlog='aws ecr get-login-password --region eu-west-2 | docker login --username AWS --password-stdin "$(getRegistryId)"'
 alias awsid='aws sts get-caller-identity'
+alias catoken='export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain tooling --domain-owner 448934085854 --region eu-west-2 --query authorizationToken --output text`'
 alias cancel-image='aws imagebuilder cancel-image-creation --image-build-version-arn'
 function sp() { 
   export AWS_PROFILE=${1} 
@@ -38,3 +40,5 @@ function bitbucketRefresh() {
 REF_ID=$(aws autoscaling start-instance-refresh --auto-scaling-group-name bitbucket-asg | jq -r '.InstanceRefreshId')
 watch "aws autoscaling describe-instance-refreshes --auto-scaling-group-name bitbucket-asg --instance-refresh-ids $REF_ID | jq -r '.InstanceRefreshes[0] | .Status,.StatusReason'" 
 }
+alias awsupdate="/Users/danieljones/.alias/update-aws.sh"
+alias calog="aws codeartifact login --tool npm --repository npm-group --domain tooling --domain-owner 448934085854 --region eu-west-2"
